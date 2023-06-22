@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>album-form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/css.css">
+
+</head>
+
+<body>
+
+  <div class="wrapper d-flex">
+    <nav id="sidebar">
+      <h1><a href="Home.html" class="logo">
+          <icon class="bi bi-headphones"></icon>
+          <span>Music</span>
+        </a></h1>
+      <ul class="list-unstyled components mb-5">
+        <li class="active">
+          <a href="/album-form.html">
+            <icon class="bi bi-vinyl-fill icon"></icon><span>Album</span>
+          </a>
+        </li>
+        <li>
+          <a href="/artist-form.html">
+            <icon class="bi bi-person-fill icon"></icon><span>Artist</span>
+          </a>
+        </li>
+        <li>
+          <a href="/song-form.html">
+            <icon class="bi bi-music-note-list icon"></icon><span>Song</span>
+          </a>
+        </li>
+
+      </ul>
+
+
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+        <button type="button" id="sidebarCollapse" class="btn" style="font-size: 30px;">
+          <i class="fa fa-bars"></i>
+          <span class="sr-only">Toggle Menu</span>
+        </button>
+        <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/signin.html">Sign out</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+      <form id="form">
+        <fieldset>
+          <legend>Album/playlist</legend>
+          <div class="mb-3">
+            <label for="TextInput" class="form-label">Name</label>
+            <input type="text" id="TextInput" class="form-control" placeholder="">
+          </div>
+          <div class="mb-3">
+            <label for="disabledSelect" class="form-label">Type</label>
+            <select id="disabledSelect" class="form-select">
+              <option selected>select</option>
+              <option>Album</option>
+              <option>playlist</option>
+            </select>
+          </div>
+          
+          <a href="/album-table.html" type="submit" class="btn btn-primary">Save</a>
+        </fieldset>
+      </form>
+
+      
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+  <script src="js/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
